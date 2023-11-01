@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <link rel="stylesheet" href="app.css" />
+  <body>
+    <div class="container">
+      <form id="form">
+        <input
+          type="text"
+          placeholder="search a city"
+          autofocus="on"
+          id="input-submit"
+        />
+        <input type="submit" value="search" id="search" />
+      </form>
+      <button>Current</button>
+      <div class="temp">
+        <span id="row1">29</span> <span id="celsius"> °C</span> |
+        <span id="Fahrenheit">°F</span>
+
+        <br />
+        Precipitation:0% <br />
+        <div>Humidity:<span id="Humidity">12</span>%</div>
+        <div>Wind:<span id="Wind">24</span> km/h</div>
+      </div>
+      <div id="Country">Cairo</div>
+      <div id="Humidity">
+        <span id="Date">Monday</span>
+
+        <br />
+        with periodic clouds
+      </div>
+
+      <div class="row">
+        <div class="col">
+          Mon
+          <br />
+          🌥️
+          <br />
+          38°27°
+        </div>
+        <div class="col">
+          Tue
+          <br />
+          🌥️
+          <br />
+          31°26°
+        </div>
+        <div class="col">
+          Wed
+          <br />
+          🌧️
+          <br />
+          30°23°
+        </div>
+        <div class="col">
+          Thu
+          <br />
+          ☀️
+          <br />
+          33°23°
+        </div>
+        <div class="col">
+          Fri
+          <br />
+          ☀️
+          <br />
+          33°22°
+        </div>
+        <div class="col">
+          Sat
+          <br />
+          ☀️
+          <br />
+          33°22°
+        </div>
+        <div class="col">
+          Sun
+          <br />
+          ☀️
+          <br />
+          34°23°
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
